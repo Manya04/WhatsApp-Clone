@@ -1,0 +1,46 @@
+.login {
+background-image: url("../assets/9vsJ5D.png");
+height: 100vh;
+width: 100vw;
+display: grid;
+place-items: center;
+}
+
+.login_container{
+    padding: 80px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px;
+}
+
+.login_container > img{
+    object-fit: contain;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.login_container > button{
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-color: #0a8d48 !important;
+    color: #ffffff;
+}
+
+@media all and (max-width:770px) {
+    .login_container{
+        padding: 30px;
+    }
+  }
+
+  @media all and (max-width:450px) {
+    .login_container{
+        padding: 10px;
+    }
+    .login_container > button{
+        margin-top: 20px;
+    }
+    .login_container > img{
+        margin-bottom: 20px;
+    }
+  }

@@ -1,0 +1,39 @@
+:root {
+    --header-color: lightgray;
+    --bg-color: #fff;
+    --text-color: #000;
+  }
+  
+  [data-theme="dark"] {
+    --header-color: #435A64;
+    --bg-color: #075E54;
+    --text-color: #fff;
+    --hover-color: #4a4c4f;
+  }
+  
+  .sidebarChat{
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #f6f6f6;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.sidebarChat:hover{
+    background-color: var(--hover-color);
+}
+
+.sidebarChat_info{
+    margin-left: 15px;
+}
+
+.sidebarChat_info >h2{
+   font-size: 16px;
+   margin-bottom: 8px;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
